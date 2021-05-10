@@ -1,0 +1,1158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2260BEC54B8445D7B890375D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 77CB735C41714707B9F57AC4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5AEE53AE761AF2D2453C6E4A /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9160766366F04532BA7DE71B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF160E9534A149A3BD286774 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A4EF166CC6C20BF9A8AA4D09 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				EBF58BE31F144CB1AD8FFBEB /* PBXTargetDependency */,
+				9993C862C9CB4815B5AFB628 /* PBXTargetDependency */,
+				C21660ABF76A458EA2014986 /* PBXTargetDependency */,
+				3EA00C7E194C4D9E9EE30304 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A1E8D62148C4201BBA6E7BA /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/main.cpp */ = {isa = PBXBuildFile; fileRef = 6471E16DC4A44306A70E9756 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/main.cpp */; };
+		18E087A7DC834F7F8C24BB57 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/fight.cpp */ = {isa = PBXBuildFile; fileRef = 3C07BACCA3804C6DA2B8C35B /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/fight.cpp */; };
+		246C77C8F8C44568BE42FABC /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/fight.h */ = {isa = PBXBuildFile; fileRef = 2DD91185AFA544B38EDA0A5E /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/fight.h */; };
+		2EBCFA6CD59C46D2A65C48FE /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8EA11B5271F64427BCE14000 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/CMakeLists.txt */; };
+		6C6AEF3DB62D4ECEBB733F44 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/powers.cpp */ = {isa = PBXBuildFile; fileRef = 3356D2B524934022AD22DEBB /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/powers.cpp */; };
+		9A05557DB00D4B7FA396F3BE /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/strlib.h */ = {isa = PBXBuildFile; fileRef = 7AE98805CA5746189F789A7A /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/strlib.h */; };
+		9A2700D7E76848E9B98257D2 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/strlib.cpp */ = {isa = PBXBuildFile; fileRef = 1366139DC8AB4DCC8F24A298 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/strlib.cpp */; };
+		9AA8F57B229F4F07915C0A41 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/studentTests.cpp */ = {isa = PBXBuildFile; fileRef = 9F2ED92651034F3FA5088892 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/studentTests.cpp */; };
+		9E69DBF9610A4354AA698563 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/hero.cpp */ = {isa = PBXBuildFile; fileRef = B5DF205645B04C9D86D9C788 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/hero.cpp */; };
+		9EF69ED0D92745E69ED5F23B /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A6B5B0D6989C4D679BFAAAE3 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/CMakeLists.txt */; };
+		B4FC8727CD5540938F37E234 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/powers.h */ = {isa = PBXBuildFile; fileRef = A6E6FD92A4104BDC949EC3B0 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/powers.h */; };
+		BA0EF91291B047F994C889B7 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/hero.h */ = {isa = PBXBuildFile; fileRef = EB9C8C55750B4315ABA96299 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/hero.h */; };
+		DC8D06516F53454DAC1F76DD /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/Catch.cpp */ = {isa = PBXBuildFile; fileRef = F728E9A935834A0F88D127C7 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/Catch.cpp */; };
+		EE3A65DE84E6410C8BEEA9B6 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8B0F660C46044720BCEB4DEC /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1A557D747C0040979B00F4FB /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8838DBAD3AEF4A1EAB166168 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9F43CB63CE964033844E8EDC /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C97CB5A1B1C24B6984B9DDE6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2286CD9B83D548DDBEFB1B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BD0C36C91040BB89F3133C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2260BEC54B8445D7B890375D;
+			remoteInfo = ZERO_CHECK;
+		};
+		311708750B914826863FC516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BD0C36C91040BB89F3133C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B370077053F4F69B217623B;
+			remoteInfo = src;
+		};
+		3B8DF9207C9B4DCD90D315AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BD0C36C91040BB89F3133C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B370077053F4F69B217623B;
+			remoteInfo = src;
+		};
+		4AD6B2D9B9AA42D79A0AD016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BD0C36C91040BB89F3133C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EA2F9C63FF240F9992F3CE5;
+			remoteInfo = tests;
+		};
+		5D408FEB8B4A4FFABBF1CDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BD0C36C91040BB89F3133C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2BA924F12B148069AD8CEB6;
+			remoteInfo = main;
+		};
+		8EA143F773864B2E92875BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BD0C36C91040BB89F3133C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2260BEC54B8445D7B890375D;
+			remoteInfo = ZERO_CHECK;
+		};
+		A28AF91D4320495D91429C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BD0C36C91040BB89F3133C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2260BEC54B8445D7B890375D;
+			remoteInfo = ZERO_CHECK;
+		};
+		C213D758F65A4343828416C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BD0C36C91040BB89F3133C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B370077053F4F69B217623B;
+			remoteInfo = src;
+		};
+		CB26B9617955409A99600642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BD0C36C91040BB89F3133C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2260BEC54B8445D7B890375D;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1366139DC8AB4DCC8F24A298 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/strlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strlib.cpp; path = src/strlib.cpp; sourceTree = SOURCE_ROOT; };
+		2DD91185AFA544B38EDA0A5E /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/fight.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fight.h; path = src/fight.h; sourceTree = SOURCE_ROOT; };
+		3356D2B524934022AD22DEBB /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/powers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = powers.cpp; path = src/powers.cpp; sourceTree = SOURCE_ROOT; };
+		3C07BACCA3804C6DA2B8C35B /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/fight.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fight.cpp; path = src/fight.cpp; sourceTree = SOURCE_ROOT; };
+		6471E16DC4A44306A70E9756 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		7AE98805CA5746189F789A7A /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/strlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = strlib.h; path = src/strlib.h; sourceTree = SOURCE_ROOT; };
+		8B0F660C46044720BCEB4DEC /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8EA11B5271F64427BCE14000 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9783AA83FD4B4D4E924B3286 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9F2ED92651034F3FA5088892 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/studentTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = studentTests.cpp; path = tests/studentTests.cpp; sourceTree = SOURCE_ROOT; };
+		A6B5B0D6989C4D679BFAAAE3 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A6E6FD92A4104BDC949EC3B0 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/powers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = powers.h; path = src/powers.h; sourceTree = SOURCE_ROOT; };
+		B5DF205645B04C9D86D9C788 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/hero.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hero.cpp; path = src/hero.cpp; sourceTree = SOURCE_ROOT; };
+		C5CEB5BC466C4E1A8E5E1CB5 /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74A695D114646408484EBE2 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9C8C55750B4315ABA96299 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/hero.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hero.h; path = src/hero.h; sourceTree = SOURCE_ROOT; };
+		F5183BEF27F1405FBDB276D9 /* src */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsrc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F728E9A935834A0F88D127C7 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/Catch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Catch.cpp; path = tests/Catch.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB801559239049E88313A0A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E8F32DAEAD41F6BA14DA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE9702D46654F5285D1D6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C005213FDB47CF92F554D5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				653E0CE9BF5B4B2A9AEA8D96 /* CMake Rules */,
+				9783AA83FD4B4D4E924B3286 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		09364D47CA0D4C4ABE00C098 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DD91185AFA544B38EDA0A5E /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/fight.h */,
+				EB9C8C55750B4315ABA96299 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/hero.h */,
+				A6E6FD92A4104BDC949EC3B0 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/powers.h */,
+				7AE98805CA5746189F789A7A /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/strlib.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		20812C5F5E53409A95C7E19E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F6E9171F3BF4D20B332224E /* main */ = {
+			isa = PBXGroup;
+			children = (
+				EC9EE41F1B2C4FC385143296 /* Source Files */,
+				8B0F660C46044720BCEB4DEC /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		653E0CE9BF5B4B2A9AEA8D96 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8E503963E6CD4677803508C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C74A695D114646408484EBE2 /* main */,
+				F5183BEF27F1405FBDB276D9 /* src */,
+				C5CEB5BC466C4E1A8E5E1CB5 /* tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		989277F256E44F1E8601190B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C07BACCA3804C6DA2B8C35B /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/fight.cpp */,
+				B5DF205645B04C9D86D9C788 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/hero.cpp */,
+				3356D2B524934022AD22DEBB /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/powers.cpp */,
+				1366139DC8AB4DCC8F24A298 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/strlib.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		98F3451FF2B44C4781D0ECB1 = {
+			isa = PBXGroup;
+			children = (
+				4F6E9171F3BF4D20B332224E /* main */,
+				01C005213FDB47CF92F554D5 /* ALL_BUILD */,
+				ADDBDDCAA23A4BEF8E1EAA7A /* src */,
+				C55B4562D643417EB79B9A5A /* tests */,
+				8E503963E6CD4677803508C9 /* Products */,
+				20812C5F5E53409A95C7E19E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADDBDDCAA23A4BEF8E1EAA7A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				989277F256E44F1E8601190B /* Source Files */,
+				09364D47CA0D4C4ABE00C098 /* Header Files */,
+				A6B5B0D6989C4D679BFAAAE3 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/CMakeLists.txt */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		B4A07DF7DB244F2B96B77826 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F728E9A935834A0F88D127C7 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/Catch.cpp */,
+				9F2ED92651034F3FA5088892 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/studentTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C55B4562D643417EB79B9A5A /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				B4A07DF7DB244F2B96B77826 /* Source Files */,
+				8EA11B5271F64427BCE14000 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/CMakeLists.txt */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		EC9EE41F1B2C4FC385143296 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6471E16DC4A44306A70E9756 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EA2F9C63FF240F9992F3CE5 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB7468EE05B4FF0893C20D1 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				50EC0722C6F14A518D23C031 /* Sources */,
+				AB801559239049E88313A0A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E39E13EB38C40E28D05598B /* PBXTargetDependency */,
+				7289FF71A4EE4429BE7765BC /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = C5CEB5BC466C4E1A8E5E1CB5 /* tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		9B370077053F4F69B217623B /* src */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DB2E895D3E400196D5F973 /* Build configuration list for PBXNativeTarget "src" */;
+			buildPhases = (
+				E894FD2295D04B98BCC865C6 /* Sources */,
+				D0E8F32DAEAD41F6BA14DA45 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				317091B252F54C03BCE7BDF4 /* PBXTargetDependency */,
+			);
+			name = src;
+			productName = src;
+			productReference = F5183BEF27F1405FBDB276D9 /* src */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2BA924F12B148069AD8CEB6 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA31AFBFD134AD3AB822493 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				CE3530258EDE43CA9EF39A93 /* Sources */,
+				DBE9702D46654F5285D1D6B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8040CFE68453403C854A7C7B /* PBXTargetDependency */,
+				DD26C8DB0847410CB2D30B76 /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = C74A695D114646408484EBE2 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54BD0C36C91040BB89F3133C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1230;
+			};
+			buildConfigurationList = 2476E787A2064E0F9106A0C9 /* Build configuration list for PBXProject "HW02" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9F43CB63CE964033844E8EDC /* Debug */,
+				8838DBAD3AEF4A1EAB166168 /* Release */,
+				1A557D747C0040979B00F4FB /* MinSizeRel */,
+				C97CB5A1B1C24B6984B9DDE6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 98F3451FF2B44C4781D0ECB1;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				9160766366F04532BA7DE71B /* ALL_BUILD */,
+				2260BEC54B8445D7B890375D /* ZERO_CHECK */,
+				D2BA924F12B148069AD8CEB6 /* main */,
+				9B370077053F4F69B217623B /* src */,
+				4EA2F9C63FF240F9992F3CE5 /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5AEE53AE761AF2D2453C6E4A /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/trippy/Documents/GitHub/hw02-nishanttrippy
+  make -f /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/trippy/Documents/GitHub/hw02-nishanttrippy
+  make -f /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/trippy/Documents/GitHub/hw02-nishanttrippy
+  make -f /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/trippy/Documents/GitHub/hw02-nishanttrippy
+  make -f /Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A4EF166CC6C20BF9A8AA4D09 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/trippy/Documents/GitHub/hw02-nishanttrippy
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/trippy/Documents/GitHub/hw02-nishanttrippy
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/trippy/Documents/GitHub/hw02-nishanttrippy
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/trippy/Documents/GitHub/hw02-nishanttrippy
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50EC0722C6F14A518D23C031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8D06516F53454DAC1F76DD /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/Catch.cpp */,
+				9AA8F57B229F4F07915C0A41 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/studentTests.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3530258EDE43CA9EF39A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1E8D62148C4201BBA6E7BA /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E894FD2295D04B98BCC865C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E087A7DC834F7F8C24BB57 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/fight.cpp */,
+				9E69DBF9610A4354AA698563 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/hero.cpp */,
+				6C6AEF3DB62D4ECEBB733F44 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/powers.cpp */,
+				9A2700D7E76848E9B98257D2 /* /Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/strlib.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		317091B252F54C03BCE7BDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2260BEC54B8445D7B890375D /* ZERO_CHECK */;
+			targetProxy = A28AF91D4320495D91429C80 /* PBXContainerItemProxy */;
+		};
+		3E39E13EB38C40E28D05598B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B370077053F4F69B217623B /* src */;
+			targetProxy = 3B8DF9207C9B4DCD90D315AF /* PBXContainerItemProxy */;
+		};
+		3EA00C7E194C4D9E9EE30304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2260BEC54B8445D7B890375D /* ZERO_CHECK */;
+			targetProxy = CB26B9617955409A99600642 /* PBXContainerItemProxy */;
+		};
+		7289FF71A4EE4429BE7765BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2260BEC54B8445D7B890375D /* ZERO_CHECK */;
+			targetProxy = 8EA143F773864B2E92875BF1 /* PBXContainerItemProxy */;
+		};
+		8040CFE68453403C854A7C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B370077053F4F69B217623B /* src */;
+			targetProxy = 311708750B914826863FC516 /* PBXContainerItemProxy */;
+		};
+		9993C862C9CB4815B5AFB628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B370077053F4F69B217623B /* src */;
+			targetProxy = C213D758F65A4343828416C5 /* PBXContainerItemProxy */;
+		};
+		C21660ABF76A458EA2014986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EA2F9C63FF240F9992F3CE5 /* tests */;
+			targetProxy = 4AD6B2D9B9AA42D79A0AD016 /* PBXContainerItemProxy */;
+		};
+		DD26C8DB0847410CB2D30B76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2260BEC54B8445D7B890375D /* ZERO_CHECK */;
+			targetProxy = 2286CD9B83D548DDBEFB1B14 /* PBXContainerItemProxy */;
+		};
+		EBF58BE31F144CB1AD8FFBEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2BA924F12B148069AD8CEB6 /* main */;
+			targetProxy = 5D408FEB8B4A4FFABBF1CDCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03981D7CB64A41068BC17218 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/MinSizeRel/libsrc.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		063DD9D91E1944128D0DFF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		093A5951D95D4019AC7B3161 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0CD647BFCAFF42FE8DA546CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/Debug/libsrc.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		28746A9B9CD94D7E9F9E9F5E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/MinSizeRel/libsrc.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2C4BC3DF150D40D085636481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/build";
+			};
+			name = Debug;
+		};
+		342600F67B4844048EBE5988 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/RelWithDebInfo/libsrc.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3C818551C0C343F68F5283FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4132DCEF1D09472E93B4EEDD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/build";
+			};
+			name = MinSizeRel;
+		};
+		42E5D6A5873F415D8E13FC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		629B2DCAB14840219CD5BFDA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6825791E59344414862F7C99 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		903636A90AAE4EA4A6393AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/Release/libsrc.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		94481B8573254321AA5597BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9D59BCA31BE24413A9A5F0A9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A6815FE2B4724E278A644A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BE3031401D2A4BDEBA96376A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C9F6C794417E4BB79CACCFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/build";
+			};
+			name = Release;
+		};
+		D431770FEF2A436697D1A3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E46F90EE93B24B378346C410 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/RelWithDebInfo/libsrc.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EC1571E7F8F04C75B8D944DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/Release/libsrc.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F79585D9DCEF4F0698F68DC7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/build";
+			};
+			name = RelWithDebInfo;
+		};
+		FB39C6C46E15441A89BAAE68 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FDE7F323EF554257B37271A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/Debug/libsrc.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2476E787A2064E0F9106A0C9 /* Build configuration list for PBXProject "HW02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4BC3DF150D40D085636481 /* Debug */,
+				C9F6C794417E4BB79CACCFE9 /* Release */,
+				4132DCEF1D09472E93B4EEDD /* MinSizeRel */,
+				F79585D9DCEF4F0698F68DC7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2EA31AFBFD134AD3AB822493 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD647BFCAFF42FE8DA546CC /* Debug */,
+				903636A90AAE4EA4A6393AE3 /* Release */,
+				28746A9B9CD94D7E9F9E9F5E /* MinSizeRel */,
+				E46F90EE93B24B378346C410 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77CB735C41714707B9F57AC4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D431770FEF2A436697D1A3C5 /* Debug */,
+				3C818551C0C343F68F5283FB /* Release */,
+				629B2DCAB14840219CD5BFDA /* MinSizeRel */,
+				6825791E59344414862F7C99 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AAB7468EE05B4FF0893C20D1 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE7F323EF554257B37271A7 /* Debug */,
+				EC1571E7F8F04C75B8D944DB /* Release */,
+				03981D7CB64A41068BC17218 /* MinSizeRel */,
+				342600F67B4844048EBE5988 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AF160E9534A149A3BD286774 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063DD9D91E1944128D0DFF44 /* Debug */,
+				42E5D6A5873F415D8E13FC6D /* Release */,
+				9D59BCA31BE24413A9A5F0A9 /* MinSizeRel */,
+				BE3031401D2A4BDEBA96376A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6DB2E895D3E400196D5F973 /* Build configuration list for PBXNativeTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6815FE2B4724E278A644A9D /* Debug */,
+				94481B8573254321AA5597BE /* Release */,
+				093A5951D95D4019AC7B3161 /* MinSizeRel */,
+				FB39C6C46E15441A89BAAE68 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54BD0C36C91040BB89F3133C /* Project object */;
+}

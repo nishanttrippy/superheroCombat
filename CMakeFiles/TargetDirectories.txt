@@ -1,0 +1,5 @@
+/Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeFiles/main.dir
+/Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeFiles/ALL_BUILD.dir
+/Users/trippy/Documents/GitHub/hw02-nishanttrippy/CMakeFiles/ZERO_CHECK.dir
+/Users/trippy/Documents/GitHub/hw02-nishanttrippy/src/CMakeFiles/src.dir
+/Users/trippy/Documents/GitHub/hw02-nishanttrippy/tests/CMakeFiles/tests.dir
